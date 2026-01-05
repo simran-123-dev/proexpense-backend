@@ -58,15 +58,24 @@ This API handles authentication, authorization, and expense management using sec
 ---
 
 ## 📁 Folder Structure
+```txt
 backend/
 ├── middleware/
-│ └── authMiddleware.js
+│   └── authMiddleware.js
+│
 ├── models/
-│ ├── User.js
-│ └── Expense.js
+│   ├── User.js
+│   └── Expense.js
+│
 ├── routes/
-│ ├── authRoutes.js
-│ └── expenseRoutes.js
+│   ├── authRoutes.js
+│   └── expenseRoutes.js
+│
+├── uploads/
+│
+├── .env
+├── .gitignore
 ├── index.js
 ├── package.json
-└── .env
+├── package-lock.json
+└── README.md
