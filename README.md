@@ -1,22 +1,26 @@
-# ProExpense Backend 🚀
+# Tracklet Backend 🚀
 
-Backend service for **ProExpense**, a full-stack MERN expense tracking application.
+Backend service for **Tracklet**, a modern full-stack expense tracking application.
 
-This API handles authentication, authorization, and expense management using secure JWT-based auth.
+This backend provides secure authentication, authorization, and expense
+management APIs built with Node.js, Express, and MongoDB.
 
 ---
 
 ## ✨ Features
+
 - User Signup & Login
-- JWT Access & Refresh Tokens
-- Secure password hashing (bcrypt)
+- JWT Authentication (Access + Refresh Tokens)
+- Secure password hashing using bcrypt
 - Protected expense routes
 - Add / Fetch / Delete expenses
 - MongoDB integration with Mongoose
+- Clean REST API structure
 
 ---
 
 ## 🛠 Tech Stack
+
 - Node.js
 - Express.js
 - MongoDB & Mongoose
@@ -28,36 +32,7 @@ This API handles authentication, authorization, and expense management using sec
 ---
 
 ## 📁 Folder Structure
-# ProExpense Backend 🚀
 
-Backend service for **ProExpense**, a full-stack MERN expense tracking application.
-
-This API handles authentication, authorization, and expense management using secure JWT-based auth.
-
----
-
-## ✨ Features
-- User Signup & Login
-- JWT Access & Refresh Tokens
-- Secure password hashing (bcrypt)
-- Protected expense routes
-- Add / Fetch / Delete expenses
-- MongoDB integration with Mongoose
-
----
-
-## 🛠 Tech Stack
-- Node.js
-- Express.js
-- MongoDB & Mongoose
-- JSON Web Tokens (JWT)
-- bcryptjs
-- dotenv
-- CORS
-
----
-
-## 📁 Folder Structure
 ```txt
 backend/
 ├── middleware/
